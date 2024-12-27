@@ -1,16 +1,79 @@
 :: StoryTitle
-Winter Break Game Story
+Game Story
 
 
 :: StoryData
 {
-  "ifid": "973A2D84-6DBE-45C8-B012-CB5C0C93E55A",
+  "ifid": "82B193F0-7566-4BD8-BA80-F50FB915ADF7",
   "format": "Harlowe",
   "format-version": "3.3.9",
-  "start": "Untitled Passage",
+  "start": "Game Story",
   "zoom": 1
 }
 
 
-:: Untitled Passage {"position":"575,275","size":"100,100"}
+:: Chip Set 1 {"position":"800,900","size":"100,100"}
+PTSD flashes
 
+1 - Some commander - 
+
+
+:: Game Story {"position":"800,525","size":"100,100"}
+ Intro scene (narrated by Leaf)
+ 
+To that day we all look skyward
+We see a new horizon then appear
+A Creature named Man and Creature old,
+Can we survive the landing here?
+
+(Images depict human landing from villager eyes)
+
+[[Play Game]]
+
+
+
+
+:: Heal Chip {"position":"800,775","size":"100,100"}
+use items in inventory and items in hut to make potion
+
+1. open book in inventory (instuction for this given)
+2. use bowl in hut
+3. use magic leaves in inventory
+4. grind to paste
+5. apply
+
+Soldier 1: thank you, friend
+(takes Chip away)
+
+Villager approaches: Hello Healer!
+
+.. some conversation to fill in later..
+
+We are suffering from the Blight.
+
+Use book to find what cures Blight.
+
+Leaf Set 1 ends
+
+[[Chip Set 1]]
+
+
+:: Play Game {"position":"800,650","size":"100,100"}
+Screen instructure: go to the village, your people may need help!
+
+Enter Healing Hut
+
+Inside hut are 3 soldiers, one injured (injured one is Chip)
+
+Soldier 1: Our friend requires assistance. Medical supplies have not come yet.
+
+[[Heal Chip]]
+[[Refuse to heal Chip]]
+
+
+:: Refuse to heal Chip {"position":"925,775","size":"100,100"}
+Soldier 2 draws knife
+
+YOU BETTER HEAL HIM
+
+[[Heal Chip]] 
